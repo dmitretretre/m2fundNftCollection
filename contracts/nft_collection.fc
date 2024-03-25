@@ -1,5 +1,5 @@
 #include "imports/stdlib.fc";
-#include "imports/op.fc";
+#include "imports/op-codes.fc";
 #include "imports/params.fc";
 
 ;; NFT collection smart contract

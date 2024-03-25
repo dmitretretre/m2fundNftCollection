@@ -18,7 +18,7 @@ export async function run(provider: NetworkProvider, args: string[]) {
                     amount: toNano('0.02'),
                     index: 1,
                     ownerAddress: randomAddress(),
-                    content: '456'
+                    content: ''
                 },
                 {
                     amount: toNano('0.02'),

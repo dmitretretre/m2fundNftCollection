@@ -9,8 +9,8 @@ export async function run(provider: NetworkProvider) {
         nextItemIndex: 0,
         collectionContent: buildNftCollectionContentCell(
             {
-                collectionContent: '',
-                commonContent: 'tonstorage://0D51A77C4BE0E59ED44D149B5FE32332AE726FE09AE83E84E363FC50A21DFB56/'
+                collectionContent: 'https://raw.githubusercontent.com/dmitretretre/m2fundNftCollection/main/scripts/collection_mdata.json',
+                commonContent: 'nedvizhka'
             }
         ),
         nftItemCode: await compile('NftItem'),
